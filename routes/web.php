@@ -28,6 +28,7 @@ Route::group(['middleware' => ['activity']],function(){
 });
 
 
+
 Route::group(['middleware' => ['web']],function(){
 
     Route::any('session1',[
